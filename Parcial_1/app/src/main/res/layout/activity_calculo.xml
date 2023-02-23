@@ -6,57 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".Calculo">
 
-    <TextView
-        android:id="@+id/txv2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="calculo"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="51dp" />
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="546dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-    <EditText
-        android:id="@+id/edt3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:ems="10"
-        android:hint="Peso"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/txv2"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="@+id/txv2"
-        app:layout_constraintTop_toBottomOf="@+id/txv2" />
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:hint="Peso"
+            android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/edt4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:ems="10"
-        android:hint="Altura"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/edt3"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/edt3"
-        app:layout_constraintTop_toBottomOf="@+id/edt3" />
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:hint="Altura"
+            android:inputType="textPersonName" />
 
-    <Button
-        android:id="@+id/btncalcular"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="Calcular"
-        app:layout_constraintEnd_toEndOf="@+id/edt4"
-        app:layout_constraintStart_toStartOf="@+id/edt4"
-        app:layout_constraintTop_toBottomOf="@+id/edt4" />
+        <Button
+            android:id="@+id/btncalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:onClick="calculo"
+            android:text="Calcular" />
 
-    <TextView
-        android:id="@+id/txv3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="Resultado"
-        app:layout_constraintEnd_toEndOf="@+id/btncalcular"
-        app:layout_constraintStart_toStartOf="@+id/btncalcular"
-        app:layout_constraintTop_toBottomOf="@+id/btncalcular" />
+        <TextView
+            android:id="@+id/txv2"
+            android:layout_width="208dp"
+            android:layout_height="53dp"
+            android:hint="Resultado" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
