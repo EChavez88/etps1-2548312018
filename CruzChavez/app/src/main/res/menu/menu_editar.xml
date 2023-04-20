@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/editar"
+        android:icon="@drawable/baseline_create_24"
+        android:title="opcion_editar"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/guardar"
+        android:icon="@drawable/baseline_save_24"
+        android:title="opcion_editar"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/opciones"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="opcion_editar"
+        app:showAsAction="ifRoom"></item>
+
+</menu>
