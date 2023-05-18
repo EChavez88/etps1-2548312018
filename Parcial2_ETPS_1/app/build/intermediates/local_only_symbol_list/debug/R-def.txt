@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable lead_photo_1
+drawable lead_photo_10
+drawable lead_photo_2
+drawable lead_photo_3
+drawable lead_photo_4
+drawable lead_photo_5
+drawable lead_photo_6
+drawable lead_photo_7
+drawable lead_photo_8
+drawable lead_photo_9
+id constraintLayout
+id imvFoto
+id lsvPersonas
+id tvCargo
+id tvCompania
+id tvNombre
+layout activity_main
+layout personas
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Parcial2_ETPS_1
+xml backup_rules
+xml data_extraction_rules
